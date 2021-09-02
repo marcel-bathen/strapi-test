@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/test-sammlungs",
+      "handler": "test-sammlung.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/test-sammlungs/count",
+      "handler": "test-sammlung.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/test-sammlungs/:id",
+      "handler": "test-sammlung.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/test-sammlungs",
+      "handler": "test-sammlung.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/test-sammlungs/:id",
+      "handler": "test-sammlung.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/test-sammlungs/:id",
+      "handler": "test-sammlung.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
