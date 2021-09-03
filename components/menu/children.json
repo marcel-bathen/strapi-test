@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_menu_children",
+  "info": {
+    "name": "Children",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "Section": {
+      "model": "sections"
+    }
+  }
+}

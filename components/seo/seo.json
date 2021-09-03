@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "name": "SEO",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.meta"
+    },
+    "SeoUrl": {
+      "type": "text"
+    }
+  }
+}
