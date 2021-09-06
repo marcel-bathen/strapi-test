@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "sections",
+  "collectionName": "pages",
   "info": {
-    "name": "Sections",
+    "name": "Page",
     "description": ""
   },
   "options": {
@@ -12,15 +12,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
       "type": "string"
     },
-    "Slug": {
-      "type": "uid",
-      "targetField": "Title"
+    "full_slug": {
+      "type": "string"
     },
-    "Parent": {
-      "model": "sections"
+    "parent": {
+      "model": "page"
     },
     "SEO": {
       "type": "component",

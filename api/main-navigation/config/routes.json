@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/main-menu",
-      "handler": "main-menu.find",
+      "path": "/main-navigation",
+      "handler": "main-navigation.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/main-menu",
-      "handler": "main-menu.update",
+      "path": "/main-navigation",
+      "handler": "main-navigation.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/main-menu",
-      "handler": "main-menu.delete",
+      "path": "/main-navigation",
+      "handler": "main-navigation.delete",
       "config": {
         "policies": []
       }

@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_seo_metas",
+  "collectionName": "components_meta_metas",
   "info": {
-    "name": "Meta",
+    "name": "meta",
     "icon": "angle-double-right"
   },
   "options": {},
@@ -9,8 +9,8 @@
     "name": {
       "type": "string"
     },
-    "content": {
-      "type": "string"
+    "value": {
+      "type": "text"
     }
   }
 }
