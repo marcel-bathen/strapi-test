@@ -9,6 +9,24 @@
         actionOptions: {
             upload: {},
             delete: {},
-  },
+      },
+   },
+   navigation: {
+     additionalFields: ['audience'],
+     allowedLevels: 2,
+     contentTypesNameFields: {
+       'blog_posts': ['altTitle'],
+       'pages': ['title'],
+     }
+   },
+   plugins: {
+     navigation: {
+       additionalFields: ['audience'],
+       allowedLevels: 2,
+       contentTypesNameFields: {
+         'blog_posts': ['altTitle'],
+         'pages': ['title'],
+       }
+     },
    },
 });

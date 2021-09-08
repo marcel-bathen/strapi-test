@@ -30,6 +30,13 @@
       "repeatable": false,
       "component": "seo.seo"
     },
+    "navigation": {
+      "model": "navigationitem",
+      "plugin": "navigation",
+      "via": "related",
+      "configurable": false,
+      "hidden": true
+    },
     "content": {
       "type": "dynamiczone",
       "components": [
